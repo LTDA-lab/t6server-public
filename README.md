@@ -163,6 +163,10 @@ chmod +x StartIW4MAdmin.sh
 ./StartIW4MAdmin.sh
 
 
+You can manage your VPS files with "WinSCP" download version 6.1
+
+https://sourceforge.net/projects/winscp/files/WinSCP/
+
 
 ======================================================================
 
