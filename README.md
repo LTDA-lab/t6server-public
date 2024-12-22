@@ -10,7 +10,9 @@ su
 sudo apt update
 ```
 
+```c++
 sudo apt upgrade
+```
 
 sudo apt install git
 
