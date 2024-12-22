@@ -1,3 +1,5 @@
+Tested on the latest versions of Ubuntu
+
 ```c++
 sudo passwd
 ```
