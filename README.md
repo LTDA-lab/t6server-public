@@ -6,7 +6,9 @@ su
 .
 
 
+```python
 sudo apt update
+```
 
 sudo apt upgrade
 
