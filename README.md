@@ -28,7 +28,7 @@ sudo apt install nano
 ```
 
 ```c++
-git clone https://github.com/LTDA-lab/t6server.git
+git clone https://github.com/LTDA-lab/t6server-public.git
 ```
 
 
