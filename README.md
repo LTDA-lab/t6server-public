@@ -102,7 +102,7 @@ winecfg
 
 
 
-install desktop:  ( you can not install the desktop and start your server and your IW4Madmin remotely from a "powershell" console .. to do this just open a "powershell" terminal and type: ssh root@<ip of the vps> .. example .. ssh root@18.43.543.23  )
+install desktop: (if you don't want to install the desktop and start your server and your IW4Madmin remotely from a "powershell" console.. to do this just open a "powershell" terminal and type: ssh root@<ip of the vps> .. example .. ssh root@18.43.543.23 )
 
 ```c++
 sudo apt install -y xfce4 desktop-base xfce4-terminal tango-icon-theme
