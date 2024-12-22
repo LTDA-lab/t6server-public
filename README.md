@@ -1,9 +1,12 @@
+```c++
 sudo passwd
+```
 
+```c++
 su
+```
 
-.
-.
+
 
 
 ```c++
@@ -14,26 +17,24 @@ sudo apt update
 sudo apt upgrade
 ```
 
+```c++
 sudo apt install git
+```
 
-.
-.
-
-
+```c++
 sudo apt install nano
+```
 
-.
-.
-
-
+```c++
 git clone https://github.com/LTDA-lab/t6server.git
-.
-.
+```
 
 
 Edit your "sshd_config" file to be able to enter your vps with password
 
+```c++
 sudo vim /etc/ssh/sshd_config
+```
 
 cc
 
@@ -49,11 +50,10 @@ Ctrl+c
 
 :wq! enter
 
+```c++
 sudo reboot
+```
 
-
-.
-.
 
 
 wine:
