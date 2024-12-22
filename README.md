@@ -113,7 +113,7 @@ sudo apt install xrdp -y
 
 
 
-install dotnet-sdk-8.0: (for IW4MAemin)
+install dotnet-sdk-8.0: (for IW4MAdmin)
 
 
 ```c++
