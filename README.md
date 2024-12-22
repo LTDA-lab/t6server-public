@@ -163,7 +163,7 @@ chmod +x StartIW4MAdmin.sh
 ./StartIW4MAdmin.sh
 
 
-You can manage your VPS files with "WinSCP" download version 6.1
+you can manage your server files and edit them, avoid using "nano" to edit your .bat , .cfg .. etc.. "WinSCP" server files download version 6.1  .
 
 https://sourceforge.net/projects/winscp/files/WinSCP/
 
