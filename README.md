@@ -150,7 +150,6 @@ chmod +x pluto.sh
 ./pluto.sh mp
 ```
 
-.
 
 run server (ZM):
 ```c++
@@ -161,9 +160,6 @@ chmod +x pluto.sh
 ```
 
 
-.
-.
-
 run update (server):
 ```c++
 chmod +x pluto.sh
@@ -172,13 +168,9 @@ chmod +x pluto.sh
 ./pluto.sh up
 ```
 
-.
 Note: when updating the server, the folder with the updated files is created in:
 
 /home/ubuntu/.wine/drive_c/users/ubuntu/AppData/Local/  <===the path may vary, adapt your user names to this path.. copy the Plutonium folder and paste it over the plutonium you want to update.. replace all.
-
-.
-.
 
 
 
