@@ -6,7 +6,7 @@ su
 .
 
 
-```python
+```c++
 sudo apt update
 ```
 
