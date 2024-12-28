@@ -323,12 +323,6 @@ jammyUbuntu 22.04Linux Mint 21.x
 sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources
 ```
 
-trixieDebian Testing
-```c++
-sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/debian/dists/trixie/winehq-trixie.sources
-```
-
-
 ```c++
 sudo apt update
 ```
