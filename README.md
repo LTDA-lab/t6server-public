@@ -63,6 +63,7 @@ apt-key add winehq.key && \
 ```c++
 apt-add-repository 'deb https://dl.winehq.org/wine-builds/debian/ buster main'
 ```
+
 ```c++
 rm winehq.key
 ```
@@ -303,9 +304,28 @@ sudo mkdir -pm755 /etc/apt/keyrings
 ```c++
 sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
 ```
-
+focalUbuntu 20.04Linux Mint 20.x
 ```c++
 sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/focal/winehq-focal.sources
+```
+oracularUbuntu 24.10
+```c++
+sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/oracular/winehq-oracular.sources
+```
+
+nobleUbuntu 24.04Linux Mint 22
+```c++
+sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/noble/winehq-noble.sources
+```
+
+jammyUbuntu 22.04Linux Mint 21.x
+```c++
+sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources
+```
+
+trixieDebian Testing
+```c++
+sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/debian/dists/trixie/winehq-trixie.sources
 ```
 
 
@@ -390,6 +410,9 @@ you can manage your server files and edit them, avoid using "nano" to edit your 
 https://sourceforge.net/projects/winscp/files/WinSCP/
 
 
+
+
+
 ======================================================================
 
 
@@ -434,67 +457,3 @@ unzip:
 ```c++
 sudo apt install unzip
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
