@@ -258,9 +258,26 @@ sudo ufw allow 22:6000/udp
 sudo vim /etc/ssh/sshd_config
 ```
 
+press the letter c twice to start editing the file:
+
+
+remove the # characters in front of the following lines and if necessary delete and write "yes" without the quotes.. it should look like this below..see images below (links)
+
+https://www.mediafire.com/view/e0cqddnrh6siq1d/2024-12-22_02_35_38-Window.jpg
+
+https://www.mediafire.com/view/oexqqgpjp1ezx8q/2024-12-22_02_35_52-Window.jpg
+
+
 
 ```c++
 sudo reboot
+```
+
+```c++
+sudo apt install git
+```
+```c++
+sudo apt install nano
 ```
 
 
@@ -324,6 +341,100 @@ sudo apt-get install -y dotnet-sdk-8.0
 ```c++
 git clone https://github.com/LTDA-lab/t6server-public.git
 ```
+
+```c++
+nano !start_mp_server.bat
+```
+
+cd /root/t6server-public/Plutonium     <============= Edit this line, inside the "!start_mp_server.bat" file, copying and pasting the path of your Plutonium folder here 
+
+if you can't find the full path of your Plutonium folder ..try this:
+
+cd /D %gamepath%/Plutonium
+
+
+(add your server key ..configure the port and so on in this file)
+
+Ctrl+x press y enter.
+
+
+
+
+run server (MP):
+Right click on "!start_mp_server.bat" and open it with wine loader
+
+run server (ZM):
+Right click on "!start_zm_server.bat" and open it with wine loader
+
+
+run update (server):
+Right click on "!updatePluto.bat" and open it with wine loader
+
+
+Note: when updating the server, the folder with the updated files is created in:
+
+/home/debian/.wine/drive_c/users/debian/AppData/Local/  <===the path may vary, adapt your user names to this path.. copy the Plutonium folder and paste it over the plutonium you want to update.. replace all.
+
+
+
+run iw4madmin:
+```c++
+chmod +x StartIW4MAdmin.sh
+```
+```c++
+./StartIW4MAdmin.sh
+```
+
+you can manage your server files and edit them, avoid using "nano" to edit your .bat , .cfg .. etc.. "WinSCP" server files download version 6.1  .
+
+https://sourceforge.net/projects/winscp/files/WinSCP/
+
+
+======================================================================
+
+
+Others .. No for server.
+
+hardware information
+```c++
+sudo apt install hardinfo
+```
+
+task manager
+```c++
+htop
+```
+
+
+
+chrome:
+```c++
+sudo apt update && sudo apt upgrade
+```
+```c++
+sudo apt install software-properties-common apt-transport-https ca-certificates curl -y
+```
+```c++
+curl -fSsL https://dl.google.com/linux/linux_signing_key.pub | sudo gpg --dearmor | sudo tee /usr/share/keyrings/google-chrome.gpg >> /dev/null
+```
+```c++
+echo deb [arch=amd64 signed-by=/usr/share/keyrings/google-chrome.gpg] http://dl.google.com/linux/chrome/deb/ stable main | sudo tee /etc/apt/sources.list.d/google-chrome.list
+```
+```c++
+sudo apt update
+```
+```c++
+sudo apt install google-chrome-stable
+```
+
+
+
+unzip:
+
+```c++
+sudo apt install unzip
+```
+
 
 
 
