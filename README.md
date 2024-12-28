@@ -1,39 +1,19 @@
-Tested on the latest versions of Ubuntu
-
 ```c++
 sudo passwd
-```
-
-```c++
-su
-```
-
-
-
+``
 
 ```c++
 sudo apt update
 ```
-
 ```c++
 sudo apt upgrade
 ```
-
 ```c++
 sudo apt install git
 ```
-
 ```c++
 sudo apt install nano
 ```
-
-```c++
-git clone https://github.com/LTDA-lab/t6server-public.git
-```
-
-
-Edit your "sshd_config" file to be able to enter your vps with password
-
 ```c++
 sudo vim /etc/ssh/sshd_config
 ```
@@ -57,35 +37,37 @@ sudo reboot
 ```
 
 
+```c++
+git clone https://github.com/LTDA-lab/t6server-public.git
+```
+```c++
+dpkg --add-architecture i386 && \
+```
+```c++
+apt-get update -y && \
+```
+```c++
+apt-get install wget gnupg2 software-properties-common apt-transport-https curl -y
+  ```
+  
+```c++
+wget -nc https://dl.winehq.org/wine-builds/winehq.key
+```
+```c++
+apt-key add winehq.key && \
+```
+```c++
+apt-add-repository 'deb https://dl.winehq.org/wine-builds/debian/ buster main'
+```
+```c++
+rm winehq.key
+```
 
-wine:
-
 ```c++
-dpkg --print-architecture
+apt update -y
 ```
 ```c++
-dpkg --print-foreign-architectures
-```
-```c++
-sudo dpkg --add-architecture i386
-```
-```c++
-dpkg --print-foreign-architectures
-```
-```c++
-sudo mkdir -pm755 /etc/apt/keyrings
-```
-```c++
-sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
-```
-```c++
-sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/debian/dists/bookworm/winehq-bookworm.sources
-```
-```c++
-sudo apt update
-```
-```c++
-sudo apt install --install-recommends winehq-stable
+apt install --install-recommends winehq-stable -y 
 ```
 ```c++
 echo -e 'export WINEPREFIX=~/.wine\nexport WINEDEBUG=fixme-all\nexport WINEARCH=win64' >> ~/.bashrc
@@ -100,9 +82,8 @@ source ~/.bashrc
 winecfg
 ```
 
-
-
 install desktop: (if you don't want to install the desktop you can start your server and your IW4Madmin remotely from a "powershell" console... to do this just open a "powershell" terminal and type: ssh root@<vps ip> .. example .. ssh root@18.43.543.23 )
+
 
 ```c++
 sudo apt install -y xfce4 desktop-base xfce4-terminal tango-icon-theme
@@ -111,9 +92,22 @@ sudo apt install -y xfce4 desktop-base xfce4-terminal tango-icon-theme
 sudo apt install xrdp -y
 ```
 
+```c++
+sudo ufw allow 22:6000/tcp
+```
+```c++
+sudo ufw allow 22:6000/udp
+```
 
-
-install dotnet-sdk-8.0: (for IW4MAdmin)
+```c++
+wget https://packages.microsoft.com/config/debian/12/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+```
+```c++
+sudo dpkg -i packages-microsoft-prod.deb
+```
+```c++
+rm packages-microsoft-prod.deb
+```
 
 
 ```c++
@@ -123,12 +117,25 @@ sudo apt-get update && \
 sudo apt-get install -y dotnet-sdk-8.0
 ```
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 ```c++
 nano !start_mp_server.bat
 ```
 
 
-cd /root/t6server/Plutonium     <============= Edit this line, inside the "!start_mp_server.bat" file, copying and pasting the path of your Plutonium folder here 
+cd /root/t6server-public/Plutonium     <============= Edit this line, inside the "!start_mp_server.bat" file, copying and pasting the path of your Plutonium folder here 
 
 if you can't find the full path of your Plutonium folder ..try this:
 
@@ -172,7 +179,7 @@ chmod +x pluto.sh
 
 Note: when updating the server, the folder with the updated files is created in:
 
-/home/ubuntu/.wine/drive_c/users/ubuntu/AppData/Local/  <===the path may vary, adapt your user names to this path.. copy the Plutonium folder and paste it over the plutonium you want to update.. replace all.
+/home/debian/.wine/drive_c/users/debian/AppData/Local/  <===the path may vary, adapt your user names to this path.. copy the Plutonium folder and paste it over the plutonium you want to update.. replace all.
 
 
 
