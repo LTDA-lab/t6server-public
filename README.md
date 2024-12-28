@@ -40,6 +40,8 @@ sudo reboot
 ```c++
 git clone https://github.com/LTDA-lab/t6server-public.git
 ```
+
+wine:
 ```c++
 dpkg --add-architecture i386 && \
 ```
@@ -99,6 +101,7 @@ sudo ufw allow 22:6000/tcp
 sudo ufw allow 22:6000/udp
 ```
 
+dotnet-sdk-8.0:
 ```c++
 wget https://packages.microsoft.com/config/debian/12/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
 ```
@@ -120,20 +123,9 @@ sudo apt-get install -y dotnet-sdk-8.0
 
 
 
-
-
-
-
-
-
-
-
-
-
 ```c++
 nano !start_mp_server.bat
 ```
-
 
 cd /root/t6server-public/Plutonium     <============= Edit this line, inside the "!start_mp_server.bat" file, copying and pasting the path of your Plutonium folder here 
 
@@ -147,35 +139,18 @@ cd /D %gamepath%/Plutonium
 Ctrl+x press y enter.
 
 
-```c++
-winecfg
-```
+
 
 run server (MP):
-```c++
-chmod +x pluto.sh
-```
-```c++
-./pluto.sh mp
-```
-
+Right click on "!start_mp_server.bat" and open it with wine loader
 
 run server (ZM):
-```c++
-chmod +x pluto.sh
-```
-```c++
-./pluto.sh zm
-```
+Right click on "!start_zm_server.bat" and open it with wine loader
 
 
 run update (server):
-```c++
-chmod +x pluto.sh
-```
-```c++
-./pluto.sh up
-```
+Right click on "!updatePluto.bat" and open it with wine loader
+
 
 Note: when updating the server, the folder with the updated files is created in:
 
