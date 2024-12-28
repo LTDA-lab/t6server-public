@@ -173,50 +173,9 @@ you can manage your server files and edit them, avoid using "nano" to edit your 
 
 https://sourceforge.net/projects/winscp/files/WinSCP/
 
-
-======================================================================
-
-
-Others .. No for server.
-
-hardware information
-```c++
-sudo apt install hardinfo
-```
-
 task manager
 ```c++
 htop
-```
-
-
-
-chrome:
-```c++
-sudo apt update && sudo apt upgrade
-```
-```c++
-sudo apt install software-properties-common apt-transport-https ca-certificates curl -y
-```
-```c++
-curl -fSsL https://dl.google.com/linux/linux_signing_key.pub | sudo gpg --dearmor | sudo tee /usr/share/keyrings/google-chrome.gpg >> /dev/null
-```
-```c++
-echo deb [arch=amd64 signed-by=/usr/share/keyrings/google-chrome.gpg] http://dl.google.com/linux/chrome/deb/ stable main | sudo tee /etc/apt/sources.list.d/google-chrome.list
-```
-```c++
-sudo apt update
-```
-```c++
-sudo apt install google-chrome-stable
-```
-
-
-
-unzip:
-
-```c++
-sudo apt install unzip
 ```
 
 Ubuntu 20.04:
@@ -403,20 +362,6 @@ you can manage your server files and edit them, avoid using "nano" to edit your 
 
 https://sourceforge.net/projects/winscp/files/WinSCP/
 
-
-
-
-
-======================================================================
-
-
-Others .. No for server.
-
-hardware information
-```c++
-sudo apt install hardinfo
-```
-
 task manager
 ```c++
 htop
@@ -424,30 +369,3 @@ htop
 
 
 
-chrome:
-```c++
-sudo apt update && sudo apt upgrade
-```
-```c++
-sudo apt install software-properties-common apt-transport-https ca-certificates curl -y
-```
-```c++
-curl -fSsL https://dl.google.com/linux/linux_signing_key.pub | sudo gpg --dearmor | sudo tee /usr/share/keyrings/google-chrome.gpg >> /dev/null
-```
-```c++
-echo deb [arch=amd64 signed-by=/usr/share/keyrings/google-chrome.gpg] http://dl.google.com/linux/chrome/deb/ stable main | sudo tee /etc/apt/sources.list.d/google-chrome.list
-```
-```c++
-sudo apt update
-```
-```c++
-sudo apt install google-chrome-stable
-```
-
-
-
-unzip:
-
-```c++
-sudo apt install unzip
-```
