@@ -1,6 +1,6 @@
 ```c++
 sudo passwd
-``
+```
 
 ```c++
 sudo apt update
