@@ -1,3 +1,5 @@
+Debian 11:
+
 ```c++
 sudo passwd
 ```
@@ -215,3 +217,173 @@ unzip:
 ```c++
 sudo apt install unzip
 ```
+
+Ubuntu 20.04:
+
+```c++
+sudo passwd
+```
+```c++
+sudo apt update
+```
+```c++
+sudo apt upgrade
+```
+```c++
+sudo apt install -y xfce4 desktop-base xfce4-terminal tango-icon-theme
+```
+
+```c++
+sudo apt install xrdp -y
+```
+
+
+
+```c++
+echo xfce4-session > $HOME/.xsession
+```
+```c++
+chmod +x .xsession
+```
+```c++
+sudo ufw allow 22:6000/tcp
+```
+```c++
+sudo ufw allow 22:6000/udp
+```
+
+
+ 
+ ```c++
+sudo vim /etc/ssh/sshd_config
+```
+
+
+```c++
+sudo reboot
+```
+
+
+wine:
+
+```c++
+dpkg --print-architecture
+```
+
+```c++
+dpkg --print-foreign-architectures
+```
+
+```c++
+sudo dpkg --add-architecture i386
+```
+```c++
+dpkg --print-foreign-architectures
+```
+```c++
+sudo mkdir -pm755 /etc/apt/keyrings
+```
+```c++
+sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
+```
+
+```c++
+sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/focal/winehq-focal.sources
+```
+
+
+```c++
+sudo apt update
+```
+
+```c++
+sudo apt install --install-recommends winehq-stable
+```
+
+
+dotnet-sdk-8.0:
+
+```c++
+wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+```
+```c++
+sudo dpkg -i packages-microsoft-prod.deb
+```
+```c++
+rm packages-microsoft-prod.deb
+```
+
+```c++
+sudo apt-get update && \
+```
+```c++
+sudo apt-get install -y dotnet-sdk-8.0
+```
+
+
+```c++
+git clone https://github.com/LTDA-lab/t6server-public.git
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
