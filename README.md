@@ -387,7 +387,7 @@ Right click on "!updatePluto.bat" and open it with wine loader
 
 Note: when updating the server, the folder with the updated files is created in:
 
-/home/debian/.wine/drive_c/users/debian/AppData/Local/  <===the path may vary, adapt your user names to this path.. copy the Plutonium folder and paste it over the plutonium you want to update.. replace all.
+/home/ubuntu/.wine/drive_c/users/ubuntu/AppData/Local/  <===the path may vary, adapt your user names to this path.. copy the Plutonium folder and paste it over the plutonium you want to update.. replace all.
 
 
 
