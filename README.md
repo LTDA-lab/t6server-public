@@ -224,7 +224,9 @@ https://www.mediafire.com/view/e0cqddnrh6siq1d/2024-12-22_02_35_38-Window.jpg
 
 https://www.mediafire.com/view/oexqqgpjp1ezx8q/2024-12-22_02_35_52-Window.jpg
 
+Ctrl+c
 
+:wq! enter
 
 ```c++
 sudo reboot
