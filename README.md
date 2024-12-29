@@ -159,8 +159,14 @@ Note: when updating the server, the folder with the updated files is created in:
 
 /home/debian/.wine/drive_c/users/debian/AppData/Local/  <===the path may vary, adapt your user names to this path.. copy the Plutonium folder and paste it over the plutonium you want to update.. replace all.
 
+run server:in powershell ..(without xrdp desktop...)
 
-
+```c++
+chmod +x pluto.sh
+```
+```c++
+./pluto.sh mp
+```
 run iw4madmin:
 ```c++
 chmod +x StartIW4MAdmin.sh
@@ -348,6 +354,14 @@ Note: when updating the server, the folder with the updated files is created in:
 /home/ubuntu/.wine/drive_c/users/ubuntu/AppData/Local/  <===the path may vary, adapt your user names to this path.. copy the Plutonium folder and paste it over the plutonium you want to update.. replace all.
 
 
+run server:in powershell ..(without xrdp desktop...)
+
+```c++
+chmod +x pluto.sh
+```
+```c++
+./pluto.sh mp
+```
 
 run iw4madmin:
 ```c++
