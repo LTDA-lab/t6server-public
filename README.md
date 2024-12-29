@@ -167,6 +167,8 @@ chmod +x pluto.sh
 ```c++
 ./pluto.sh mp
 ```
+Usage: (up|mp|zm)
+
 run iw4madmin:
 ```c++
 chmod +x StartIW4MAdmin.sh
@@ -362,6 +364,8 @@ chmod +x pluto.sh
 ```c++
 ./pluto.sh mp
 ```
+
+Usage: (up|mp|zm)
 
 run iw4madmin:
 ```c++
