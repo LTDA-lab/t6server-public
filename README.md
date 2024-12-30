@@ -25,9 +25,9 @@ press the letter c twice to start editing the file:
 
 remove the # characters in front of the following lines and if necessary delete and write "yes" without the quotes.. it should look like this below..see images below (links)
 
-https://www.mediafire.com/view/e0cqddnrh6siq1d/2024-12-22_02_35_38-Window.jpg
+https://ia600607.us.archive.org/4/items/2024-12-22-02-35-38-window/2024-12-22%2002_35_38-Window.jpg
 
-https://www.mediafire.com/view/oexqqgpjp1ezx8q/2024-12-22_02_35_52-Window.jpg
+https://ia600607.us.archive.org/4/items/2024-12-22-02-35-38-window/2024-12-22%2002_35_52-Window.jpg
 
 
 Ctrl+c
@@ -228,9 +228,9 @@ press the letter c twice to start editing the file:
 
 remove the # characters in front of the following lines and if necessary delete and write "yes" without the quotes.. it should look like this below..see images below (links)
 
-https://www.mediafire.com/view/e0cqddnrh6siq1d/2024-12-22_02_35_38-Window.jpg
+https://ia600607.us.archive.org/4/items/2024-12-22-02-35-38-window/2024-12-22%2002_35_38-Window.jpg
 
-https://www.mediafire.com/view/oexqqgpjp1ezx8q/2024-12-22_02_35_52-Window.jpg
+https://ia600607.us.archive.org/4/items/2024-12-22-02-35-38-window/2024-12-22%2002_35_52-Window.jpg
 
 Ctrl+c
 
