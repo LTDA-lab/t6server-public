@@ -14,7 +14,7 @@ init()
 	ui_dclink.y = 2;
 	ui_dclink.font = "default";
 	ui_dclink.fontscale = 1;
-	ui_dclink settext( "^5report cheater ^7!report player reason" );
+	ui_dclink settext( "^7!report player reason" );
 
 }
 
