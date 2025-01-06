@@ -178,8 +178,10 @@ chmod +x StartIW4MAdmin.sh
 ```
 
 you can manage your server files and edit them, avoid using "nano" to edit your .bat , .cfg .. etc.. "WinSCP" server files download version 6.1  .
+(connect "WinSCP" in "SCP" mode)
 
 https://sourceforge.net/projects/winscp/files/WinSCP/
+
 
 
 
@@ -380,6 +382,7 @@ chmod +x StartIW4MAdmin.sh
 ```
 
 you can manage your server files and edit them, avoid using "nano" to edit your .bat , .cfg .. etc.. "WinSCP" server files download version 6.1  .
+(connect "WinSCP" in "SCP" mode)
 
 https://sourceforge.net/projects/winscp/files/WinSCP/
 
