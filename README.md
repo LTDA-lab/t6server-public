@@ -1,4 +1,5 @@
 ## **Tested on Ubuntu 20.04 & Debian 11**
+![430702446-fb888c6c-bc4c-4a09-ace1-b0fca9a09f94](https://github.com/user-attachments/assets/ea60141a-ef1f-48f2-a3c9-afeff358e397)
 
 Debian 11:
 
