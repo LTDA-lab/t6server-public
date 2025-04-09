@@ -14,7 +14,7 @@ init()
 	ui_dclink.y = 400;
 	ui_dclink.font = "default";
 	ui_dclink.fontscale = 1;
-	ui_dclink settext( "!report player reason" );
+	ui_dclink settext( "^9!report player reason" );
 
 }
 
