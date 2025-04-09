@@ -9,12 +9,12 @@ init()
 	ui_dclink.aligny = "top";
 	ui_dclink.foreground = 1;
 	ui_dclink.alpha = 1;
-	ui_dclink.color = ( 1, 1, 1 );
-	ui_dclink.x = 505;
-	ui_dclink.y = 2;
+	ui_dclink.color = (0.737, 0.737, 0.737);
+	ui_dclink.x = 530;
+	ui_dclink.y = 400;
 	ui_dclink.font = "default";
 	ui_dclink.fontscale = 1;
-	ui_dclink settext( "^1!report player reason" );
+	ui_dclink settext( "!report player reason" );
 
 }
 
