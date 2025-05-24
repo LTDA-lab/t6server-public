@@ -186,6 +186,10 @@ you can manage your server files and edit them, avoid using "nano" to edit your 
 
 https://sourceforge.net/projects/winscp/files/WinSCP/
 
+task manager
+```c++
+top
+```
 
 ```c++
 
