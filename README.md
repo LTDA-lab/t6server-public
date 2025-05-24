@@ -188,18 +188,13 @@ https://sourceforge.net/projects/winscp/files/WinSCP/
 
 task manager
 ```c++
-top
+apt install htop
+```
+```c++
+htop
 ```
 
 ```c++
-
-
-
-
-
-
-
-
 
 
 
