@@ -200,12 +200,7 @@ hardware info:
 apt-get install hardinfo
 ```
 
-run:
-
-```c++
-hardinfo
-```
-
+run: click on applications/run programs.
 
 
 
