@@ -186,7 +186,7 @@ you can manage your server files and edit them, avoid using "nano" to edit your 
 
 https://sourceforge.net/projects/winscp/files/WinSCP/
 
-task manager
+task manager:
 ```c++
 apt install htop
 ```
@@ -194,11 +194,18 @@ apt install htop
 htop
 ```
 
-hardware info
+hardware info:
 
 ```c++
 apt-get install hardinfo
 ```
+
+run:
+
+```c++
+hardinfo
+```
+
 
 
 
