@@ -194,6 +194,14 @@ apt install htop
 htop
 ```
 
+hardware info
+
+```c++
+apt-get install hardinfo
+```
+
+
+
 ```c++
 
 
