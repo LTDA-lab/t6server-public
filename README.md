@@ -65,7 +65,7 @@ wget -nc https://dl.winehq.org/wine-builds/winehq.key
 apt-key add winehq.key && \
 ```
 ```c++
-apt-add-repository 'deb https://dl.winehq.org/wine-builds/debian/ buster main'
+apt-add-repository 'deb https://dl.winehq.org/wine-builds/debian/ bullseye main'
 ```
 
 ```c++
