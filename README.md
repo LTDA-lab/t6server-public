@@ -318,6 +318,11 @@ oracularUbuntu 24.10
 sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/oracular/winehq-oracular.sources
 ```
 
+Ubuntu 22.04.5 LTS (Jammy Jellyfish)
+```c++
+sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources
+```
+
 nobleUbuntu 24.04Linux Mint 22
 ```c++
 sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/noble/winehq-noble.sources
@@ -335,6 +340,19 @@ sudo apt update
 ```c++
 sudo apt install --install-recommends winehq-stable
 ```
+
+```c++
+sudo apt update
+```
+
+```c++
+sudo apt install wine -y
+```
+
+```c++
+winecfg
+```
+
 
 
 dotnet-sdk-8.0:
