@@ -156,12 +156,8 @@ Right click on "!start_zm_server.bat" and open it with wine loader
 
 
 run update (server):
-Right click on "!updatePluto.bat" and open it with wine loader
 
-
-Note: when updating the server, the folder with the updated files is created in:
-
-/home/debian/.wine/drive_c/users/debian/AppData/Local/  <===the path may vary, adapt your user names to this path.. copy the Plutonium folder and paste it over the plutonium you want to update.. replace all.
+https://github.com/LTDA-lab/plutonium-updater.rs
 
 run server:in powershell ..(without xrdp desktop...)
 
@@ -405,12 +401,8 @@ Right click on "!start_zm_server.bat" and open it with wine loader
 
 
 run update (server):
-Right click on "!updatePluto.bat" and open it with wine loader
 
-
-Note: when updating the server, the folder with the updated files is created in:
-
-/home/ubuntu/.wine/drive_c/users/ubuntu/AppData/Local/  <===the path may vary, adapt your user names to this path.. copy the Plutonium folder and paste it over the plutonium you want to update.. replace all.
+https://github.com/LTDA-lab/plutonium-updater.rs
 
 
 run server:in powershell ..(without xrdp desktop...)
